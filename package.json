@@ -1,0 +1,19 @@
+{
+  "name": "cypress-cucumber",
+  "version": "1.0.0",
+  "description": "Cypress Cucumber Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pavan Chanduri",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^14.5.1",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "step_definitions": "cypress/e2e/Tests"
+  }
+}
